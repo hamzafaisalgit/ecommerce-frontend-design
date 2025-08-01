@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Product_Listing.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="images/logo-colored.png" alt="">
+        </div>
+        <div class="nav-search">
+            <input style="height: 40px; flex: 1;" type="text" placeholder="Search">
+            <select style="width: 145px;height: 40px;">
+                <option>All Categories</option>
+            </select>
+            <button style="width: 100px;height: 40px;">Search</button>
+        </div>
+        <div class="nav-links">
+            <div class="link">
+                <img src="images/Profile.png" alt="">
+                <p>Profile</p>
+            </div>
+            <div class="link">
+                <img src="images/msgs.png" alt="">
+                <p>Message</p>
+            </div>
+            <div class="link">
+                <img src="images/Heart.png" alt="">
+                <p>Orders</p>
+            </div>
+            <div class="link">
+                <img src="images/Cart.png" alt="">
+                <p>My cart</p>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="nav-bot">
+        <div class="nav-bot-left">
+            <div class="opt1">
+                <span><img src="images/Hamburger.png" alt=""></span>
+                <p>All Categories</p>
+            </div>
+            <p>Hot Offers</p>
+            <p>Gift boxes</p>
+            <p>Projects</p>
+            <p>Menu Items</p>
+            <div class="opt2">
+                <p>Help</p>
+                <span><img src="images/Down.png" alt=""></span>
+            </div>
+        </div>
+        <div class="nav-bot-right">
+            <div class="lang">
+                <p>English, USD</p>
+                <span><img src="images/Down.png" alt=""></span>
+            </div>
+            <div class="country">
+                <p>Ship to </sp>
+                <span><img src="images/Flag.png" alt=""></span>
+                <span><img src="images/Down.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumb">
+        <div class="b-cont">
+            <p>Home</p>
+            <img src="images/RIght.png" alt="">
+            <p>Clothings</p>
+            <img src="images/RIght.png" alt="">
+            <p>Men's wear</p>
+            <img src="images/RIght.png" alt="">
+            <p>Summer clothing</p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="cat">
+                <div class="dropdown-toggle"><h3>Category</h3><img src="images/Down.png" alt=""></div>
+                <div class="dropdown-content">
+                    <p>Mobile Accessory</p>
+                    <p>Electronics</p>
+                    <p>Smartphones</p>
+                    <p>Modern tech</p>
+                    <a href="#">See More</a>
+                </div>
+            </div>
+
+            <div class="brands">
+                <div class="dropdown-toggle">
+                    <h3>Brands</h3>
+                    <img src="images/Down.png" alt="">
+                </div>
+                <div class="dropdown-content">
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Samsung</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Apple</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Huawei</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Pocco</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Lenovo</p>
+                    </div>
+                    <a href="#">See More</a>
+                </div>
+            </div>
+
+            <div class="Features">
+                <div class="dropdown-toggle">
+                    <h3>Features</h3>
+                    <img src="images/Down.png" alt="">
+                </div>
+                <div class="dropdown-content">
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Metallic</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Plastic cover</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>8GB Ram</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Super power</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Large Memory</p>
+                    </div>
+                    <a href="#">See More</a>
+                </div>
+            </div>
+
+            <div class="Price-range">
+                <div class="dropdown-toggle">
+                    <h3>Price range</h3>
+                    <img src="images/Down.png" alt="">
+                </div>
+                <div class="dropdown-content">
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>100</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>200</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>300</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>400</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>500</p>
+                    </div>
+                    <a href="#">See More</a>
+                </div>
+            </div>
+            <div class="Condition">
+                <div class="dropdown-toggle">
+                    <h3>Condition</h3>
+                    <img src="images/Down.png" alt="">
+                </div>
+                <div class="dropdown-content">
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>New</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Very New</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Old</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Acceptable</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Satisfactory</p>
+                    </div>
+                    <a href="#">See More</a>
+                </div>
+            </div>
+            <div class="Ratings">
+                <div class="dropdown-toggle">
+                    <h3>Ratings</h3>
+                    <img src="images/Down.png" alt="">
+                </div>
+                <div class="dropdown-content">
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>1 star</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>2 stars</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>3 stars</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>4 stars</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>5 stars</p>
+                    </div>
+                    <a href="#">See More</a>
+                </div>
+            </div>
+            <div class="Manufacturer">
+                <div class="dropdown-toggle">
+                    <h3>Manufacturer</h3>
+                    <img src="images/Down.png" alt="">
+                </div>
+                <div class="dropdown-content">
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Imported</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>Local</p>
+                    </div>
+                    <a href="#">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-sec">
+            <div class="first-sec">
+                <div class="first-text">
+                    <p>12,911 items in <span>Mobile accessory</span></p>
+                </div>
+                <div class="sec-sec">
+                    <div class="verified">
+                        <input type="checkbox">
+                        <p>Verified only</p>
+                    </div>
+                    <div class="featured">
+                        <p>Featured</p>
+                        <img src="images/Down.png" width="12px" style="height: 7px;" alt="">
+                    </div>
+                    <div class="btn">
+                        <img src="images/btn-group.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="filters">
+                <div class="fil-cont">
+                    <p>Samsung</p>
+                    <img src="images/Cross.png" alt="">
+                </div>
+                <div class="fil-cont">
+                    <p>Apple</p>
+                    <img src="images/Cross.png" alt="">
+                </div>
+                <div class="fil-cont">
+                    <p>Poco</p>
+                    <img src="images/Cross.png" alt="">
+                </div>
+                <div class="fil-cont">
+                    <p>Metallic</p>
+                    <img src="images/Cross.png" alt="">
+                </div>
+                <div class="fil-cont">
+                    <p>4 star</p>
+                    <img src="images/Cross.png" alt="">
+                </div>
+                <div class="fil-cont">
+                    <p>3 star</p>
+                    <img src="images/Cross.png" alt="">
+                </div>
+                <div class="clear">
+                    <a href="">Clear all filters</a>
+                </div>
+            </div>
+
+            <div class="prods-cont">
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                <div class="prods">
+                    <div class="image">
+                        <img src="images/Phonee.png" alt="">
+                    </div>
+                    <div class="price-cont">
+                        <div class="price-left">
+                            <div class="price">
+                                <span><h5>$99.50</h5></span>
+                                <span><p>$1128.00</p></span>
+                            </div>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="heart">
+                            <img src="images/Blue_heart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <img src="images/logo-colored.png" alt="">
+                <p>Best information about the company gies here but now lorem ipsum is</p>
+                <div class="link-iconss">
+                    <a href="/"><img src="images/FB.png" alt=""></a>
+                    <a href="/"><img src="images/Twitter.png" alt=""></a>
+                    <a href="/"><img src="images/Linkedin.png" alt=""></a>
+                    <a href="/"><img src="images/Insta.png" alt=""></a>
+                    <a href="/"><img src="images/YT.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="middle-cont">
+                    <ul>
+                        <h5>About</h5>
+                        <p>About Us</p>
+                        <p>Find store</p>
+                        <p>Categories</p>
+                        <p>Blogs</p>
+                    </ul>
+                    <ul>
+                        <h5>Partnership</h5>
+                        <p>AboutUs</p>
+                        <p>Findstore</p>
+                        <p>Categories</p>
+                        <p>Blogs</p>
+                    </ul>
+                    <ul>
+                        <h5>Information</h5>
+                        <p>Help Center</p>
+                        <p>Money Refund</p>
+                        <p>Shipping</p>
+                        <p>Contact us</p>
+                    </ul>
+                    <ul>
+                        <h5>For users</h5>
+                        <p>Login</p>
+                        <p>Register</p>
+                        <p>Settings</p>
+                        <p>My Orders</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p>Get app</p>
+                <img src="images/market-button.png" alt="">
+                <img src="images/market-button1.png" alt="">
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <span class="sp-text">© 2023 Ecommerce.</span>
+            <span class="bot">
+                <img width="24px" src="images/US.png" alt="">
+                <p>English</p>
+                <img src="images/Up-sign.png" alt="">
+            </span>
+        </div>
+    </footer>
+    
+    
+    <script>
+    // const dropdown = document.getElementById('customDropdown');
+    // const toggle = dropdown.querySelector('.dropdown-toggle');
+
+    // toggle.addEventListener('click', () => {
+    //   dropdown.classList.toggle('open');
+    // });
+
+    // window.addEventListener('click', (e) => {
+    //   if (!dropdown.contains(e.target)) {
+    //     dropdown.classList.remove('open');
+    //   }
+    // });
+        const toggles = document.querySelectorAll(".dropdown-toggle");
+
+        toggles.forEach(toggle => {
+        toggle.addEventListener("click", () => {
+            const content = toggle.nextElementSibling;
+
+            if (content.classList.contains("none")) {
+                content.classList.remove("none");
+            } else {
+                content.classList.add("none");
+            }
+        });
+    });
+
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>

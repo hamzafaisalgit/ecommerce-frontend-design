@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Cart</title>
+  <link rel="stylesheet" href="cart.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <img src="images/logo-colored.png" alt="">
+        </div>
+        <div class="nav-search">
+            <input style="height: 40px; flex: 1;" type="text" placeholder="Search">
+            <select style="width: 145px;height: 40px;">
+                <option>All Categories</option>
+            </select>
+            <button style="width: 100px;height: 40px;">Search</button>
+        </div>
+        <div class="nav-links">
+            <div class="link">
+                <img src="images/Profile.png" alt="">
+                <p>Profile</p>
+            </div>
+            <div class="link">
+                <img src="images/msgs.png" alt="">
+                <p>Message</p>
+            </div>
+            <div class="link">
+                <img src="images/Heart.png" alt="">
+                <p>Orders</p>
+            </div>
+            <div class="link">
+                <img src="images/Cart.png" alt="">
+                <p>My cart</p>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="nav-bot">
+        <div class="nav-bot-left">
+            <div class="opt1">
+                <span><img src="images/Hamburger.png" alt=""></span>
+                <p>All Categories</p>
+            </div>
+            <p>Hot Offers</p>
+            <p>Gift boxes</p>
+            <p>Projects</p>
+            <p>Menu Items</p>
+            <div class="opt2">
+                <p>Help</p>
+                <span><img src="images/Down.png" alt=""></span>
+            </div>
+        </div>
+        <div class="nav-bot-right">
+            <div class="lang">
+                <p>English, USD</p>
+                <span><img src="images/Down.png" alt=""></span>
+            </div>
+            <div class="country">
+                <p>Ship to </sp>
+                <span><img src="images/Flag.png" alt=""></span>
+                <span><img src="images/Down.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+
+  <main class="cart-container">
+    <section class="cart-left">
+      <h2>My cart (3)</h2>
+
+      <div class="cart-item">
+        <img src="images/Shirt.png" alt="T-shirt">
+        <div class="item-details">
+          <p class="title">T-shirts with multiple colors, for men and lady</p>
+          <p class="info">Size: medium, Color: blue, Material: Plastic</p>
+          <p class="seller">Seller: Artel Market</p>
+          <div class="actions">
+            <button class="remove-btn">Remove</button>
+            <button class="save-btn">Save for later</button>
+          </div>
+        </div>
+        <div class="price-box">
+          <p>$78.99</p>
+          <select>
+            <option>Qty: 9</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <img src="images/Jacket.jpg" alt="Backpack">
+        <div class="item-details">
+          <p class="title">T-shirts with multiple colors, for men and lady</p>
+          <p class="info">Size: medium, Color: blue, Material: Plastic</p>
+          <p class="seller">Seller: Best factory LLC</p>
+          <div class="actions">
+            <button class="remove-btn">Remove</button>
+            <button class="save-btn">Save for later</button>
+          </div>
+        </div>
+        <div class="price-box">
+          <p>$39.00</p>
+          <select>
+            <option>Qty: 3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <img src="images/Lamp.png" alt="Lamp">
+        <div class="item-details">
+          <p class="title">T-shirts with multiple colors, for men and lady</p>
+          <p class="info">Size: medium, Color: blue, Material: Plastic</p>
+          <p class="seller">Seller: Artel Market</p>
+          <div class="actions">
+            <button class="remove-btn">Remove</button>
+            <button class="save-btn">Save for later</button>
+          </div>
+        </div>
+        <div class="price-box">
+          <p>$170.50</p>
+          <select>
+            <option>Qty: 1</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="cart-actions">
+        <button class="back-btn">⬅ Back to shop</button>
+        <button class="remove-all-btn">Remove all</button>
+      </div>
+    </section>
+
+    <aside class="cart-summary">
+      <h3>Have a coupon?</h3>
+      <div class="coupon">
+        <input type="text" placeholder="Add coupon">
+        <button>Apply</button>
+      </div>
+      <div class="summary">
+        <div><span>Subtotal:</span><span>$1403.97</span></div>
+        <div><span>Discount:</span><span class="discount">- $60.00</span></div>
+        <div><span>Tax:</span><span class="tax">+ $14.00</span></div>
+        <div class="total"><strong>Total:</strong><strong>$1357.97</strong></div>
+        <button class="checkout-btn">Checkout</button>
+        <img src="images/payment.png" alt="Payment options" class="payment-icons">
+      </div>
+    </aside>
+  </main>
+
+  <footer class="cart-footer">
+    <div>🛡 Secure payment<br><small>Have you ever finally just</small></div>
+    <div>📦 Customer protection<br><small>Have you ever finally just</small></div>
+    <div>🚚 Free delivery<br><small>Have you ever finally just</small></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
