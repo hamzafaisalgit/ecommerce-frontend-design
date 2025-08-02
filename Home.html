@@ -7,6 +7,7 @@
     <title>Home Page</title>
 </head>
 <body>
+    <script>alert("Click on my cart to view it");</script>
     <nav>
         <div class="nav-logo">
             <img src="images/logo-colored.png" alt="">
@@ -16,7 +17,7 @@
             <select style="width: 145px;height: 40px;">
                 <option>All Categories</option>
             </select>
-            <button style="width: 100px;height: 40px;">Search</button>
+            <button style="width: 100px;height: 40px;"><a style="text-decoration: none; color: white;" href="Product_Listings.html">Search</a></button>
         </div>
         <div class="nav-links">
             <div class="link-1">
@@ -33,7 +34,7 @@
             </div>
             <div class="link-4">
                 <img src="images/Cart.png" alt="">
-                <p>My cart</p>
+                <a style="text-decoration: none; color: #8B96A5;" href="Cart.html"><p>My cart</p></a>
             </div>
         </div>
     </nav>
@@ -90,7 +91,7 @@
                         <p style="font-size: 28px; font-weight: 400;">Latest Trendings</p>
                         <p style="font-size: 32px; font-weight: bolder;">Electronic Items</p>
                     </div>
-                    <button style="font-size: 16px; font-weight: 500;">Learn More</button>
+                    <button style="font-size: 16px; font-weight: 500;"><a style="text-decoration: none; color: black;" href="Product_Listings.html">Learn More</a></button>
                     
                 </div>
             </div>
@@ -187,7 +188,7 @@
             <div class="left-text">
                 <h4>Home and outdoor</h4>
             </div>
-            <button>Source Now</button>
+            <button><a style="text-decoration: none; color: black;" href="Product_Listings.html">Source Now</a></button>
         </div>
         <div class="third-right">
             <div class="prods">
@@ -311,7 +312,7 @@
             <div class="left-text">
                 <h4>Consumer electronics and gadgets</h4>
             </div>
-            <button>Source Now</button>
+            <button><a style="text-decoration: none; color: black;" href="Product_Listings.html">Source Now</a></button>
         </div>
         <div class="third-right">
             <div class="prods">
@@ -440,13 +441,13 @@
             <div class="cont-right">
                 <div class="inq-box">
                     <h4>Send quote to suppliers</h4>
-                    <input style=" width: 440px;height: 40px;" type="text" placeholder="What item you need?">
+                    <input class="inputtt" style=" width: 440px;height: 40px;" type="text" placeholder="What item you need?">
                     <textarea style="width: 440px;height: 73px;" placeholder="Type more details"></textarea>
                     <div class="inq-inputs">
                         <input style="width: 206px; height: 40px;" type="text" placeholder="quantity">
                         <Select style="width: 110px; height: 40px;"><option>PCs</option></Select>
                     </div>
-                    <button>Send Inquiry</button>
+                    <button class="bttn" style="cursor: pointer;">Send Inquiry</button>
                 </div>
             </div>
         </div>
